@@ -6,7 +6,7 @@ A React Native bridge module for interacting with Apple Healthkit data. Checkout
 
 Install the [rn-apple-healthkit] package from npm:
 
-- Run `npm install rn-apple-healthkit --save`
+- Run `npm install --save git+http://gitlab.synclab.it/ios/react-native-healthKit.git`
 - Run `react-native link rn-apple-healthkit`
 
 Update `info.plist` in your React Native project
@@ -19,7 +19,7 @@ Update `info.plist` in your React Native project
 
 ## Manual Installation
 
-1. Run `npm install rn-apple-healthkit --save`
+1. Run `npm install --save git+http://gitlab.synclab.it/ios/react-native-healthKit.git`
 2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 3. Go to `node_modules` ➜ `rn-apple-healthkit` and add `RCTAppleHealthkit.xcodeproj`
 4. In XCode, in the project navigator, select your project. Add `libRCTAppleHealthkit.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
@@ -45,7 +45,7 @@ If new read/write permissions are added to the options object then the app user 
 let options = {
     permissions: {
         read: ["Height", "Weight", "StepCount", "DateOfBirth", "BodyMassIndex", "ActiveEnergyBurned"],
-        write: ["Height", "Weight", "StepCount", "BodyMassIndex", "Biotin", "Caffeine", "Calcium", "Carbohydrates", "Chloride", "Cholesterol", "Copper", "EnergyConsumed", "FatMonounsaturated", "FatPolyunsaturated", "FatSaturated", "FatTotal", "Fiber", "Folate", "Iodine", "Iron", "Magnesium", "Manganese", "Molybdenum", "Niacin", "PantothenicAcid", "Phosphorus", "Potassium", "Protein", "Riboflavin", "Selenium", "Sodium", "Sugar", "Thiamin", "VitaminA", "VitaminB12", "VitaminB6", "VitaminC", "VitaminD", "VitaminE", "VitaminK", "Zinc", "Water"]
+        write: ["Height", "Weight", "StepCount", "BodyMassIndex", "Biotin", "Caffeine", "Calcium", "Carbohydrates", "Chloride", "Cholesterol", "Copper", "EnergyConsumed", "FatMonounsaturated", "FatPolyunsaturated", "FatSaturated", "FatTotal", "Fiber", "Folate", "Iodine", "Iron", "Magnesium", "Manganese", "Molybdenum", "Niacin", "PantothenicAcid", "Phosphorus", "Potassium", "Protein", "Riboflavin", "Selenium", "Sodium", "Sugar", "Thiamin", "VitaminA", "VitaminB12", "VitaminB6", "VitaminC", "VitaminD", "VitaminE", "VitaminK", "Zinc", "Water", "OxygenSaturation"]
     }
 };
 ```
