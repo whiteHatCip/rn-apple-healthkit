@@ -1,12 +1,41 @@
 {
-  "name": "rn-apple-healthkit",
-  "version": "0.6.3",
-  "description": "A React Native package for interacting with Apple HealthKit",
-  "main": "index.js",
-  "repository": {
+  "_args": [
+    [
+      "git+http://gitlab.synclab.it/ios/react-native-healthKit.git",
+      "/Users/fabiocipriani/Developer/Synclab/bda4phr/mobile/react-native/trunk"
+    ]
+  ],
+  "_from": "git+http://gitlab.synclab.it/ios/react-native-healthKit.git",
+  "_id": "rn-apple-healthkit@git+http://gitlab.synclab.it/ios/react-native-healthKit.git#76f0e9783060583abd63e5c1eef028c8de79f8aa",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/rn-apple-healthkit",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/terrillo/rn-apple-healthkit.git"
+    "raw": "git+http://gitlab.synclab.it/ios/react-native-healthKit.git",
+    "rawSpec": "git+http://gitlab.synclab.it/ios/react-native-healthKit.git",
+    "saveSpec": "git+http://gitlab.synclab.it/ios/react-native-healthKit.git",
+    "fetchSpec": "http://gitlab.synclab.it/ios/react-native-healthKit.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+http://gitlab.synclab.it/ios/react-native-healthKit.git#76f0e9783060583abd63e5c1eef028c8de79f8aa",
+  "_spec": "git+http://gitlab.synclab.it/ios/react-native-healthKit.git",
+  "_where": "/Users/fabiocipriani/Developer/Synclab/bda4phr/mobile/react-native/trunk",
+  "author": {
+    "name": "Terrillo Walls"
+  },
+  "bugs": {
+    "url": "https://github.com/terrillo/rn-apple-healthkit/issues"
+  },
+  "description": "A React Native package for interacting with Apple HealthKit",
+  "devDependencies": {
+    "react-native": ">=0.40.0"
+  },
+  "homepage": "https://github.com/terrillo/rn-apple-healthkit",
   "keywords": [
     "Apple",
     "health-kit",
@@ -17,16 +46,15 @@
     "native",
     "ios"
   ],
-  "bugs": {
-    "url": "https://github.com/terrillo/rn-apple-healthkit/issues"
-  },
-  "homepage": "https://github.com/terrillo/rn-apple-healthkit",
-  "author": "Terrillo Walls",
   "license": "MIT",
-  "devDependencies": {
-    "react-native": ">=0.40.0"
-  },
+  "main": "index.js",
+  "name": "rn-apple-healthkit",
   "peerDependencies": {
     "react-native": ">=0.40.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrillo/rn-apple-healthkit.git"
+  },
+  "version": "0.6.3"
 }

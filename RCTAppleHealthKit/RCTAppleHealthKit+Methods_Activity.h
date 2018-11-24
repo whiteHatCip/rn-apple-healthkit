@@ -10,5 +10,6 @@
 @interface RCTAppleHealthKit (Methods_Activity)
 
 - (void)activity_getActiveEnergyBurned:(NSDictionary *)input callback:(RCTResponseSenderBlock)callback;
+- (HKActivitySummaryQuery*)activity_getActivitySummary:(NSDictionary *)input callback:(RCTResponseSenderBlock)callback;
 
 @end
